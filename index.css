@@ -1,0 +1,127 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0 auto;
+    padding: 3rem 4rem;
+    width: 100%;
+    max-width: 50rem;
+    /* min-height: 100vh; */
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    background-color: lightgray;
+}
+
+.container {
+    margin: auto;
+    padding: 0;
+    border-radius: 8px;
+    background-color: #1F2937;
+    /* width: 100%; */
+}
+
+/* ----------- Input Section ---------- */
+.input-section {
+    
+    padding: 40px;
+    background-color: #6943FF;
+    border-top-right-radius: 8px;
+    border-top-left-radius:  8px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+input {
+    background: none;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 3.625rem;
+    width: 167px;
+    height: 90px;
+    padding: 0;
+    margin: 20px 40px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 800;
+    
+}
+::placeholder {
+    color:#FFFFFF;
+    opacity: .5;
+}
+input:focus {
+    outline: none;
+    border: 3px solid #FFFFFF;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #CCC1FF;
+    color: #273549;
+    border: 3px solid transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #273549;
+    color: #CCC1FF;
+}
+
+button:focus {
+    outline: none;
+    border-color: #FFFFFF;
+}
+
+.reset-btn {
+    width: 60px;  
+}
+
+/* ----------- Conversion Section ---------- */
+.output-section {
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.unit-disp {
+    text-align: center;
+    background-color: #273549;
+    padding: 10px 5px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    width: 100%;
+    min-height: 120px;
+}
+
+h2 {
+    color: #CCC1FF;
+    font-size: 1.25;
+    font-weight: 600;
+    width: 100%;
+    padding: 0 1em 0 1em;
+    text-align: center;
+}
+
+.output-els {
+    font-size: 0.875rem;
+}
